@@ -1,0 +1,92 @@
+.container.home
+	.home-inner
+		.main-header
+			button.btn-history-back > font-icon
+			a.logo > img
+			button.btn-search > font-icon
+		.home-content
+			.home-main-slider
+				(a > img) * 4
+			.home-fast-menu
+				a
+					img
+					span
+			.banner
+				img
+			.home-items-slider.home-special-product
+				.home-title
+					h2>span
+				.product-sell-items
+					.product-sell-item
+						.thum
+							button.btn-like > font-icon
+							img
+						.product-sell-item-desc
+							span.badge
+							h3
+							.product-sell-item-price
+								.product-sell-item-price-sale
+									s, b
+				a.btn-show-all
+			.banner
+				img
+			.home-tab-items
+				.home-title
+					h2>span
+				.home-tab-inner
+					input[type=radio] * 6
+					.tab-buttons
+						label * 6
+					.recommend-tabs
+						.recommend-tab.tab1
+							.product-sell-item
+								.thum
+									button.btn-like > font-icon
+									img
+								.product-sell-item-desc
+									span.badge
+									h3
+									.product-sell-item-price
+										.product-sell-item-price-sale
+											s, b
+			.banner
+				img
+			.home-only-product
+				.home-title
+					h2>span
+				.only-product-items
+					.only-product-item
+						.thum
+							img
+						.only-product-item-desc
+							span, h3
+				a.btn-show-all
+			.home-social-center
+				.home-title
+					h2
+						span,img
+				.social-center-items
+					.social-center-item
+						.social-center-item-desc
+							.social-center-thum
+								img
+								.sns-profile
+									b, span
+							.sns-content
+								p
+						.thum
+							img
+			.home-footer
+				.logo-sns
+					img
+					.footer-sns
+						(a > img) * 5
+				.footer-menu
+					a * 8
+				.footer-company-info
+					p
+		.gnb
+			[same structure html]
+	
+	
+	

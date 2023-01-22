@@ -1,0 +1,30 @@
+.container.news-release-detail
+	.news-release-detail-inner
+		.main-header
+			[same structure html]
+		.news-release-detail-content
+			.breadcrumb
+				a > img
+				span
+				span
+			.board-title
+				h3
+			.board-info
+				.reg-dtm
+					span, span
+				.read-cnt
+					span, span
+			.board-content
+				.thum
+					img
+				.content
+					p
+				button.btn-list
+			.previous-next-board
+				.previous
+					span, a
+				.next
+					span, a
+		.gnb
+			[same structure html]
+			

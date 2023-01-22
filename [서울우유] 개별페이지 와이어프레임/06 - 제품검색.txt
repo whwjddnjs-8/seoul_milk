@@ -1,0 +1,28 @@
+.container.product-search
+	.product-search-inner
+		.main-header
+			[same structure html]
+		.product-search-content
+			.search-keyword
+				.search
+					input[type=text]
+					button.btn-input-search
+				.recent-keyword
+					.recent-keyword-ttl
+						span, button.btn-delete-all
+					.recent-keyword-list
+						.keyword
+							span, button.btn-delete
+			.search-result
+				.total-cnt
+					p > span
+				.search-result-items	
+					.product-item
+						.thum
+							img
+						.product-item-desc
+							h3, span
+		.gnb
+			[same structure html]
+			
+			

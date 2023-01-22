@@ -1,0 +1,34 @@
+.container.signup
+	.signup-inner	
+		.signup-header
+			button.btn-history-back > font-icon
+			h2
+		.signup-content
+			p
+			.signup-form
+				input[type=text]
+				input[type=password]
+				input[type=password]
+				input[type=text]
+				.flex-space-around
+					input[type=text]
+					buttonbtn-certificate-number
+				.flex-space-around
+					input[type=text]
+					button.btn-confirm
+			.signup-agree
+				.all-agree
+					.custom-checkbox
+						label
+							input[type=checkbox], em
+					p
+				.part-agree
+					(.custom-checkbox > label > input[type=checkbox], em) * 6
+			.signup-btn-area
+				button.btn-cancel
+				button.btn-signup
+		.gnb
+			[same structure html]
+			
+			
+			

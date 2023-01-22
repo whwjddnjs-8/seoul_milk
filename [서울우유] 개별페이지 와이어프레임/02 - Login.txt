@@ -1,0 +1,38 @@
+.container.login
+	.login-inner
+		.login-content
+			.login-title
+				img
+				h2
+				p
+			.login-info
+				form.login-form
+					.input-area
+						input[type=text]
+						input[type=password]
+						.custom-checkbox
+							label
+								input[type=checkbox], em
+					button.btn-login
+					.or
+						hr, span, hr
+					.sns-login
+						a.kakao > span > img
+						a.naver > span > img
+				.login-additional-info
+					.additional-info
+						font-icon, p, a
+					.additional-info
+						font-icon, p, a
+					.additional-info
+						font-icon, p, a
+		.gnb
+			a>font-icon
+			a>font-icon
+			a>font-icon
+			a>font-icon
+			a
+				.gnb-cart
+					font-icon, em
+				
+				

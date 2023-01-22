@@ -1,0 +1,27 @@
+.container.product-introduce-detail
+	.product-introduce-detail-inner
+		.main-header
+			[same structure html]
+		.product-introduce-detail-content
+			.product-introduce-detail-slider
+				( a > img ) * 4
+			.product-introduce-detail-info
+				h3
+				.product-introduce-detail-desc
+					span.desc-title
+					span.desc-content
+					span.desc-title
+					span.desc-content
+			.product-introduce-detail-img
+				img
+			.product-nutrition-analysis
+				span
+				h3
+				span
+				table
+					tr
+						td, td, td
+		.gnb
+			[same structure html]
+			
+			

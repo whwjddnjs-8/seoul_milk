@@ -1,0 +1,28 @@
+.container.product-introduce
+	.product-introduce-inner
+		.main-header
+			[same structure html]
+		.product-introduce-content
+			.breadcrumb
+				a > img
+				span
+				span
+			.total-cnt
+				p > span
+			.product-introduce-list
+				.product-item
+					.thum
+						img
+					.product-item-desc
+						h3, span
+			.page
+				a.btn-move-first > font-icon
+				a.btn-move-before > font-icon
+				a * 3
+				a.btn-move-after > font-icon
+				a.btn-move-last > font-icon
+		.gnb
+			[same structure html]
+			
+			
+			

@@ -1,0 +1,52 @@
+.container.product-purchase-detail
+	.product-purchase-detail-inner
+		.main-header
+			[same structure html]
+		.product-purchase-detail-content
+			.thumbnail
+				img
+				button.btn-like > font-icon
+			.product-purchase-info
+				h3.product-title
+				.product-delivery-info
+					div
+						span * 2
+					div
+						span * 2
+					div
+						span,s
+					div
+						span
+						.product-price-info
+							b, span
+				.shopping-cart
+					.product-option
+						span
+						.custom-select
+							select
+					.product-quantity
+						span
+						.custom-increase
+							button.decrease-quantity
+							input[type=number]
+							button.increase-quantity
+					.product-expected-price
+						span
+						b
+				.btn-area
+					.btn.btn-cart
+						a
+					.btn.btn-purchase
+						a
+			.product-detail-info-tabs
+				.product-detail-info-tabs-inner
+					input[type=radio] * 3
+					.product-detail-tab-btns
+						label * 3
+					.product-detail-tabs
+						.product-detail-tab.product-detail-tab1
+							img
+		.gnb
+			[same structure html]
+			
+			

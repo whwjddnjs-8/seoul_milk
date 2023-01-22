@@ -1,0 +1,33 @@
+.container.event
+	.event-inner
+		.main-header
+			[same structure html]
+		.event-content
+			.breadcrumb
+				a > img
+				span
+				span
+			.event-tab-inner
+				input[type=radio] * 2
+				.event-tab-buttons
+					label * 2
+				.event-tabs
+					.event-tab
+						.ongoing-event-items
+							.card-item
+								.thum
+									img
+								.card-item-desc	
+									h3
+									.event-period
+										span * 3
+						.page
+							a.btn-move-first
+							a.btn-move-before
+							a * 3
+							a.btn-move-after
+							a.btn-move-last	
+		.gnb
+			[same structure html]
+			
+			

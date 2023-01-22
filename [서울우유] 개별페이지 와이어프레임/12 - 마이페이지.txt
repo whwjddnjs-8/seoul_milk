@@ -1,0 +1,40 @@
+.container.mypage
+	.mypage-inner
+		.main-header
+			[same structure html]
+		.mypage-content
+			.breadcrumb
+				a > img
+				span
+			.my-info
+				h3
+				button.btn-info-edit
+			.mypage-simple-menu
+				div
+					.simple-menu-icon
+						font-icon, em
+					span
+			.recent-view-product
+				.recent-view-title
+					h3, span
+				.recent-view-items
+					.product-sell-item
+						.thum
+							img
+						.product-sell-item-desc
+							h3
+							.product-sell-item-price
+								.product-sell-item-price-sale
+									s, b
+			.banner
+				img
+			.mypage-menu-list
+				a.mypage-menu
+					font-icon
+					span
+			button.btn-logout
+		.gnb
+			[same structure html]
+			
+			
+			

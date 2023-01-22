@@ -1,0 +1,50 @@
+.container.cart
+	.cart-inner
+		.main-header
+			[same structure html]
+		.cart-content
+			.breadcrumb
+				a > img
+				span
+			.cart-notice
+				font-icon
+				ul.notice
+					li * 3
+			.cart-items
+				.cart-item
+					.custom-checkbox
+						label
+							input[type=checkbox], em
+					.thum
+						img
+					.cart-product-info
+						span
+						h3
+						.cart-product-info-quantity
+							span , button.btn-change-quantity
+						b > span
+					button.btn-delete-cart-item
+			button.btn-delete-select-item
+			.cart-items-price-info
+				.product-and-delivery-price
+					.cart-price-info
+						.product-price
+							span, b
+						font-icon
+						.delivery-price
+							span, b
+					.product-final-price
+						span, b
+				.product-order-btn-area
+					a.btn-cancel
+					a.btn-order
+		.gnb
+			[same structure html]
+		.delete-cart-item-popup
+			button.btn-close-popup
+			p
+			.popup-btn-area
+				button.btn-cancel
+				button.btn-delete
+			
+			

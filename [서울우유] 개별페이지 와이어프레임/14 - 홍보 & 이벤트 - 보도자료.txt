@@ -1,0 +1,30 @@
+.container.news-release
+	.news-release-inner
+		.main-header
+			[same structure html]
+		.news-release-content
+			.breadcrumb
+				a > img
+				span
+				span
+			.sort
+				.custom-select
+					select
+			.news-relase-items
+				.card-item
+					.thum
+						img
+					.card-item-desc
+						.badge
+							span
+						h3
+			.page
+				a.btn-move-first
+				a.btn-move-before
+				a * 3
+				a.btn-move-after
+				a.btn-move-last
+		.gnb
+			[same structure html]
+			
+			

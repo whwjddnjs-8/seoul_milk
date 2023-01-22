@@ -1,0 +1,29 @@
+.container.event-winner
+	.event-winner-inner
+		.main-header
+			[same structure html]
+		.event-winner-content
+			.breadcrumb
+				a > img
+				span
+				span
+			.event-winner-items
+				.list-item
+					span.index
+					.list-title
+						a > h3.title
+						.list-info
+							.event-period
+								span * 3
+							.event-winner-date
+								span * 3
+			.page
+				a.btn-move-first
+				a.btn-move-before
+				a * 3
+				a.btn-move-after
+				a.btn-move-last
+		.gnb
+			[same structure html]
+			
+			

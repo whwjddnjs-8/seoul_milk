@@ -1,0 +1,32 @@
+.container.product-purchase
+	.product-purchase-inner
+		.main-header
+			[same structure html]
+		.product-purchase-content
+			.breadcrumb
+				a > img
+				span
+				span
+			.total-cnt
+				p > span
+			.product-purchase-list
+				.product-sell-item
+					button.btn-like > font-icon
+					.thum
+						img
+					.product-sell-item-desc
+						span.badge
+						h3
+						.product-sell-item-price
+							.product-sell-item-price-sale
+								s, b
+			.page
+				a.btn-move-first
+				a.btn-move-before
+				a * 3
+				a.btn-move-after
+				a.btn-move-last
+		.gnb
+			[same structure html]
+			
+			

@@ -1,0 +1,31 @@
+.container.product-like
+	.product-like-inner
+		.main-header
+			[same structure html]
+		.product-like-content
+			.breadcrumb
+				a > img
+				span
+			.product-like-outer
+				.product-like-to-cart
+					label
+						input[type=checkbox], em
+					button.btn-cart
+				.product-like-items
+					.product-sell-item
+						.thum
+							.custom-checkbox
+								label
+								input[type=checkbox], em
+							button.btn-like
+							img
+						.product-sell-item-desc
+							h3
+							.product-sell-item-price
+								span
+								.product-sell-item-price-sale
+									s, b
+		.gnb
+			[same structure html]
+			
+			
